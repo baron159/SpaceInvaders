@@ -45,12 +45,12 @@ public class PlayerShip {
         // Initialize a blank RectF
         rect = new RectF();
 
-        length = screenX/10;
-        height = screenY/10;
+        length = screenX/12;
+        height = screenY/12;
 
         // Start ship in roughly the screen centre
         x = screenX / 2;
-        y = screenY - 20;
+        y = screenY - 10;
 
         // Initialize the bitmap
         bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.playership);
